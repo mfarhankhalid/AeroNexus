@@ -1,0 +1,45 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset files - keep raw datasets out of GitHub
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Processed datasets
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+
+# Trained models
+models/**
+!models/**/
+!models/**/.gitkeep
+
+# Generated outputs
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Dataset archives
+*.zip
+*.7z
+*.rar
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env

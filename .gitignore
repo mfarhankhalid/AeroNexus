@@ -43,3 +43,6 @@ Thumbs.db
 
 # Environment secrets
 .env
+
+.claude/
+CLAUDE.md
